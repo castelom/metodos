@@ -15,12 +15,10 @@ public class Contador {
 		}
 	}
 	
-	public String ContaTudo(int num){
+	public void ContaTudo(int num){
 		int i;
-		String texto = "números";
 		for(i = 0; i<= num; i++){
 			System.out.println(i);
 		}
-		return texto;
 	}
 }
