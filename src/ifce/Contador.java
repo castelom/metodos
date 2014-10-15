@@ -36,7 +36,9 @@ public class Contador {
 		}
 	}
 	public void ContaParEImpar(int num){
+		System.out.println("Conta Pares");
 		ContaPares(num);
+		System.out.println("Conta Imapres");
 		ContaImpar(num);
 	}
 }
