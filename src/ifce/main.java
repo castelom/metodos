@@ -9,6 +9,7 @@ public class main {
 		c.ContaPares(num);
 		c.ContaImpar(num);
 		c.ContaTudo(num);
+		c.ContaImpar(num);
 	}
 
 }
