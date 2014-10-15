@@ -35,4 +35,11 @@ public class Contador {
 		}
 	}
 	
+	public void CountTriplo(int num){
+		int i;
+		for(i=0;i<num;i++){
+			System.out.println(3*i);
+		}
+	}
+	
 }
