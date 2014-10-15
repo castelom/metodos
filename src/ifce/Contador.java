@@ -41,4 +41,5 @@ public class Contador {
 		System.out.println("Conta Imapres");
 		ContaImpar(num);
 	}
+	
 }
