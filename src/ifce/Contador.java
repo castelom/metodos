@@ -29,4 +29,10 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
+	public void ContaTudo200(){
+		int i;
+		for(i = 0; i<= 200; i++){
+			System.out.println(i);
+		}
+	}
 }
