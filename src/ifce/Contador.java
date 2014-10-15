@@ -22,19 +22,6 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
-	
-	public void ContaTudo100(){
-		int i;
-		for(i = 0; i<= 100; i++){
-			System.out.println(i);
-		}
-	}
-	public void ContaTudo300(){
-		int i;
-		for(i = 0; i<= 300; i++){
-			System.out.println(i);
-		}
-	}
 	public void ContaParEImpar(int num){
 		System.out.println("Conta Pares");
 		ContaPares(num);
@@ -47,6 +34,13 @@ public class Contador {
 			System.out.println(2*i);
 		}
 		return i;
+	}
+	
+	public void CountTriplo(int num){
+		int i;
+		for(i=0;i<num;i++){
+			System.out.println(3*i);
+		}
 	}
 	
 }
