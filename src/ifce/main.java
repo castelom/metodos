@@ -7,9 +7,7 @@ public class main {
 		Contador c = new Contador();
 		int num = 100;
 		c.ContaPares(num);
-		c.ContaImpar(num);
-		c.ContaTudo(num);
-		c.ContaImpar(num);
+		;
 	}
 
 }
