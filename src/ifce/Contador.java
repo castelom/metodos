@@ -21,4 +21,8 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
+	public void ContaParEImpar(int num){
+		ContaPares(num);
+		ContaImpar(num);
+	}
 }
