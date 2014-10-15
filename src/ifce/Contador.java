@@ -41,11 +41,12 @@ public class Contador {
 		System.out.println("Conta Impares");
 		ContaImpar(num);
 	}
-	public void CountDobro(int num){
+	public int CountDobro(int num){
 		int i;
 		for(i=0;i<num;i++){
 			System.out.println(2*i);
 		}
+		return i;
 	}
 	
 }
