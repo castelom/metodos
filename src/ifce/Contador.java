@@ -9,4 +9,13 @@ public class Contador {
 		}
 		return texto;
 	}
+	
+	public String ContaImpares(int num){
+		int i;
+		String texto = "números impares";
+		for(i = 1; i<= num; i = i+2){
+			System.out.println(i);
+		}
+		return texto;
+	}
 }
