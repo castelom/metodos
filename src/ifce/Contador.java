@@ -16,4 +16,13 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
+	
+	public String ContaTudo(int num){
+		int i;
+		String texto = "números";
+		for(i = 0; i<= num; i++){
+			System.out.println(i);
+		}
+		return texto;
+	}
 }
