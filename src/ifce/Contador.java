@@ -25,4 +25,5 @@ public class Contador {
 		ContaPares(num);
 		ContaImpar(num);
 	}
+	
 }
