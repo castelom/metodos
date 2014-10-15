@@ -21,5 +21,12 @@ public class Contador {
 		for(i = 0; i<= num; i++){
 			System.out.println(i);
 		}
+	}
+	
+	public void ContaTudo100(){
+		int i;
+		for(i = 0; i<= 100; i++){
+			System.out.println(i);
 		}
+	}
 }
