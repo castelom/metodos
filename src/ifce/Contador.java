@@ -17,6 +17,7 @@ public class Contador {
 	
 	public void ContaTudo(int num){
 		int i;
+		
 		for(i = 0; i<= num; i++){
 			System.out.println(i);
 		}
@@ -28,9 +29,9 @@ public class Contador {
 			System.out.println(i);
 		}
 	}
-	public void ContaTudo200(){
+	public void ContaTudo300(){
 		int i;
-		for(i = 0; i<= 200; i++){
+		for(i = 0; i<= 300; i++){
 			System.out.println(i);
 		}
 	}
