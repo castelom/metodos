@@ -25,8 +25,14 @@ public class Contador {
 	public void ContaParEImpar(int num){
 		System.out.println("Conta Pares");
 		ContaPares(num);
-		System.out.println("Conta Imapres");
+		System.out.println("Conta Impares");
 		ContaImpar(num);
+	}
+	public void CountDobro(int num){
+		int i;
+		for(i=0;i<num;i++){
+			System.out.println(2*i);
+		}
 	}
 	
 }
